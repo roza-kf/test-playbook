@@ -1,0 +1,17 @@
+site:
+  title: Kloudfuse Docs
+  url: https://docs.kloudfuse.com
+  start_page: home::index.adoc
+content: 
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: home
+    - url: git@github.com:kloudfuse/kf-docs.git
+      branches: ['2.8']
+      start_path: platform
+ui:
+  bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+  snapshot: true
+  
+

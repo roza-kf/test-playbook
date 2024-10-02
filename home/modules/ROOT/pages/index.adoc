@@ -1,0 +1,297 @@
+= Kloudfuse Documentation
+:description: All the features of the Kloudfuse platform
+:sectanchors: 
+:url-repo:  
+:page-tags: documentation, home
+:figure-caption!:
+:table-caption!:
+:example-caption!:
+
+Try Kloudfuse:
+
+image:download.svg[Free download^,link:https://www.kloudfuse.com/download] Get a single-node configuration of Kloudfuse for free!
+
+image:playground.svg[Playground^,link:https://playground.kloudfuse.io/] Play in our sandbox -- see how we make observability easy!
+
+////
+[id=setup]
+# Set up
+
+image::setup.svg[part-setup-illustration]
+
+- Install
+- Configure
+- Agents
+- Upgrade
+- Migrate
+
+
+
+[id=melt]
+# Telemetry
+
+image::telemetry.svg[part-telemetry-illustration]
+
+- Metrics
+- Events
+- Logs
+- Traces (APM)
+- Infrastructure
+- ASM
+
+[id=monitor]
+# Monitor and Observe
+
+image::monitor.svg[part-monitor-illustration]
+
+- xref:admin-tab.adoc[RBAC]
+- xref://kloudfuse-observer.adoc[Kloudfuse Observer]
+- Kloudfuse Control Plane
+- Service-level Objectives (SLOs)
+- Consumption Tracking
+- Advanced Analytics
+
+[id=artifacts]
+# Artifacts
+
+image::artifacts.svg[part-artifacts-illustration]
+
+- Dashboards
+- Alerts
+
+[id=advanced]
+# Advanced Topics
+
+image::advanced.svg[part-advanced-topics-illustration]
+
+- Grafana
+- Apdex
+- Rolled up Metrics
+- Archive and Hydration
+
+[id=use-cases]
+# Use cases
+
+image::use-cases.svg[,link=https://kloudfuse.com]
+- Use case 1
+- Use case 2
+
+
+[id=reference]
+# Reference
+
+image::references.svg[part-reference-illustration]
+- KfuseQL
+- ...
+
+[id=appendix]
+# Appendix
+
+image::appendicies.svg[part-appendicies-illustration]
+
+- Terms
+- Log search index
+- Services
+- Data Types
+- Functions
+- Sample configuration files
+////
+
+
+++++
+
+<!-- ROW 1 -->
+<div class="sectionbody">
+
+<div class="columns">
+  <div class="box">
+    <img src="_images/release.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/release-part.html">What's New in Kloudfuse?</a>
+    </h2>
+    <ul>
+      <li><a href="https://docs.kloudfuse.com/release-notes.html">Release notes</a></li>
+      <li><a href="https://docs.kloudfuse.com/known-issues.html">Known issues</a></li>
+      <li><a href="https://docs.kloudfuse.com/deprecations.html">Deprecations</a></li>
+    </ul>
+  </div>
+  
+  <div class="box">
+    <img src="_images/setup.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/setup-part.html">Setup</a>
+    </h2>
+    <ul>
+      <li><a href="https://docs.kloudfuse.com/installation.html">Installation</a></li>
+      <li><a href="https://docs.kloudfuse.com/upgrade.html">Upgrade</a></li>
+      <li><a href="https://docs.kloudfuse.com/migration.html">Migration</a></li>
+     </ul>
+  </div>
+  
+  <div class="box">
+    <img src="_images/telemetry.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/telemetry-part.html">Telemetry</a>
+    </h2>
+   <ul>
+     <li><a href="https://docs.kloudfuse.com/metrics.html">Metrics</a></li>
+     <li><a href="https://docs.kloudfuse.com/events.html">Events</a></li>
+     <li><a href="https://docs.kloudfuse.com/logs.html">Logs</a></li>
+     <li><a href="https://docs.kloudfuse.com/traces.html">Traces (APM)</a></li>
+   </ul>
+  </div>
+  
+  <!-- ROW 2 -->
+  <div class="box">
+    <img src="_images/artifacts.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/artifacts-part.html">Artifacts</a>
+    </h2>
+   <ul>
+     <li><a href="https://docs.kloudfuse.com/dashboards.html">Dashboards</a></li>
+     <li><a href="https://docs.kloudfuse.com/dashboards-create.html">Create dashboards</a></li>
+     <li><a href="https://docs.kloudfuse.com/dashboards-actions.html">Dashboard actions</a></li>
+     <li><a href="https://docs.kloudfuse.com/alerts.html">Alerts</a></li>
+     <li><a href="https://docs.kloudfuse.com/alerts-create.html">Create alerts</a></li>
+     <li><a href="https://docs.kloudfuse.com/alerts-configure.html">Configure alerts</a></li>
+   </ul>
+  </div>
+  
+  <div class="box">
+    <img src="_images/monitor.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/monitor-part.html">Monitoring</a>
+    </h2>
+   <ul>
+     <li><a href="https://docs.kloudfuse.com/infrastructure.html">Infrastructure</a></li>
+     <li><a href="https://docs.kloudfuse.com/control-plane.html">Control Plane</a></li>
+     <li><a href="https://docs.kloudfuse.com/cpu-usage.html">CPU Usage</a></li>
+   </ul>
+  </div>
+  
+  <div class="box">
+    <img src="_images/advanced.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/advanced-part.html">Advanced Capabilities</a>
+    </h2>
+   <ul>
+     <li><a href="https://docs.kloudfuse.com/metrics-roll-up.html">Roll Up Metrics</a></li>
+     <li><a href="https://docs.kloudfuse.com/archive-hydration.html">Logs Archive and Hydration</a></li>
+     <li><a href="https://docs.kloudfuse.com/rum.html">Real User Monitoring (RUM)</a></li>
+     <li><a href="https://docs.kloudfuse.com/ai-capabilities.html">AI Capabilities</a></li>
+     <li><a href="https://docs.kloudfuse.com/facet-analytics.html">Facet Analytics</a></li>
+     <li><a href="https://docs.kloudfuse.com/logs-fingerprinting.html">Logs Fingerprinting</a></li>
+     <li><a href="https://docs.kloudfuse.com/service-catalog.html">Service Catalog</a></li>
+   </ul>
+  </div>
+
+  <!-- ROW 3 -->
+  <div class="box">
+    <img src="_images/use-cases.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/use-cases.html">Observability Use Cases</a>
+    </h2>
+    <ul>
+     <li><a href="https://docs.kloudfuse.com/uc-core-data.html">Core Observability</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-risk-system-failure.html">Mitigate System Risks</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-risk-code-failure.html">Mitigate Code Risks</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-risk-data-failure.html">Mitigate Data Risks</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-time.html">Save Time</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-revenue.html">Increase revenue</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-costs.html">Avoid costs</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-system-modernization-optimization.html">Modernize and Optimize Systems</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-dataops-processes.html">Improve DataOps Processes</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-visibility-transparency.html>Improve Visibility and Transparency</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-accountablity.html">Create Accountability</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-data-trust.html">Build Data Trust</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-mlops.html">Improve MLOps</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-self-sevice.html">Accelerate Self-Service Analytics and Data Democratization</a></li>
+     <li><a href="https://docs.kloudfuse.com/uc-data-quality.html">Go deeper and broader with your data quality coverage</a></li>
+    </ul>
+  </div>
+  
+  <div class="box">
+    <img src="_images/references.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/references-part.html">References</a>
+    </h2>
+    <ul>
+     <li><a href="https://docs.kloudfuse.com/kfuseql.html">KfuseQL Reference</a></li>
+     <li><a href="https://docs.kloudfuse.com/log-search-syntax.html">Log Search Syntax</a></li>
+     <li><a href="https://docs.kloudfuse.com/advanced-functions.html">Advanced Functions</a></li>
+    </ul>
+  </div>
+    
+  <div class="box">
+    <img src="_images/appendicies.svg">
+    <h2>
+      <a href="https://docs.kloudfuse.com/appendix-part.html">Appendix</a>
+    </h2>
+    <ul>
+     <li><a href="https://docs.kloudfuse.com/glossary.html">Glossary of terms</a></li>
+     <li><a href="https://docs.kloudfuse.com/sample-config-files.html">Sample configuration files</a></li>
+     <li><a href="https://docs.kloudfuse.com/agents-list.html">Supported agents</a></li>
+     <li><a href="https://docs.kloudfuse.com/services-list.html">Services in Kloudfuse platform</a></li>
+     </ul>
+      
+  
+</div>
+
+
+
+++++
+
+
+
+
+
+
+
+////
+
+<div class="sectionbody">
+<div class="card-row three-column-row">
+<div class="sect5 column">
+<h6></h6>
+<div class="paragraph content">
+<div class="title">Couchbase Capella (DBaaS)</div>
+<p>Explore Couchbase Capella, our fully-managed database as a service offering.
+Take the complexity out of deploying, managing, scaling, and securing Couchbase in the public cloud.
+Store, query, and analyze any amount of data — and let us handle more of the administration — all in a few clicks.</p>
+</div>
+<div class="paragraph">
+<p><a href="cloud.html" class="xref page">Couchbase Capella</a></p>
+</div>
+</div>
+<div class="sect5 column">
+<h6></h6>
+<div class="paragraph content">
+<div class="title">Couchbase Server</div>
+<p>Explore Couchbase Server, a modern, distributed document database with all the desired capabilities of a relational database and more. It exposes a scale-out, key-value store with managed cache for sub-millisecond data operations, purpose-built indexers for efficient queries, and a powerful query engine for executing SQL-like queries.</p>
+</div>
+<div class="paragraph">
+<p><a href="server.html" class="xref page">Couchbase Server</a></p>
+</div>
+</div>
+<div class="sect5 column">
+<h6></h6>
+<div class="paragraph content">
+<div class="title">Couchbase Mobile</div>
+<p><em>Couchbase Mobile</em> brings the power of NoSQL to the edge.
+The combination of <em>Sync Gateway</em> and <em>Couchbase Lite</em> coupled with the power of <em>Couchbase Server</em> provides fast, efficient bidirectional synchronization of data between the edge and the cloud.
+Enabling you to deploy your offline-first mobile and embedded applications with greater agility on premises or in any cloud.</p>
+</div>
+<div class="paragraph">
+<p><a href="../couchbase-lite/current/index.html" class="xref page">Couchbase Lite</a> |
+<a href="../sync-gateway/current/introduction.html" class="xref page">Sync Gateway</a></p>
+</div>
+</div>
+</div>
+<div class="sect5 column">
+<h6></h6>
+
+</div>
+</div>
+
+
+////
