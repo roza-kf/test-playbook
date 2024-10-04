@@ -13,5 +13,10 @@ content:
 ui:
   bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
   snapshot: true
-  
-
+output:
+  clean: true
+  dir: build/
+runtime:
+  fetch: true
+  log:
+    level: error
