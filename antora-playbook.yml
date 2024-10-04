@@ -12,7 +12,7 @@ content:
       start_path: platform
 ui:
   bundle:
-    url: ui-bundle/ui2-bundle.zip
+    url: ui-bundle/ui-bundle.zip
 output:
   clean: true
   dir: build/
