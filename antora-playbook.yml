@@ -11,8 +11,8 @@ content:
       branches: ['2.8']
       start_path: platform
 ui:
-  bundle: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-  snapshot: true
+  bundle:
+    url: ui-bundle/ui2-bundle.zip
 output:
   clean: true
   dir: build/
