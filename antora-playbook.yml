@@ -7,8 +7,8 @@ content:
     - url: .
       branches: HEAD
       start_path: home
-    - url: git@github.com:kloudfuse/kf-docs.git
-      branches: ['2.8']
+    - url: git@github.com:roza-kf/test-docs.git
+      branches: ['main']
       start_path: platform
 ui:
   bundle:
