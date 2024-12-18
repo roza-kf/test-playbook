@@ -13,6 +13,9 @@ content:
 ui:
   bundle:
     url: ui-bundle/ui-bundle.zip
+asciidoc:
+  extensions:
+  - '@asciidoctor/tabs'
 output:
   clean: true
   dir: build/
