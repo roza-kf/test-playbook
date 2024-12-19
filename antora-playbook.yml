@@ -10,6 +10,10 @@ content:
     - url: git@github.com:roza-kf/test-docs.git
       branches: ['main']
       start_path: platform
+urls:
+  html_extension_style: drop
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: latest      
 ui:
   bundle:
     url: ui-bundle/ui-bundle.zip
